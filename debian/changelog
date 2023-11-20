@@ -1,5 +1,108 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-h11 (0.14.0-1) unstable; urgency=low
 
-  * Initial release
+  * New upstream release.
+  * Bump Standards-Version to 4.6.1.0.
+  * Update linitan-overrides.
+  * Use uscan version 4.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Michael Fladischer <fladi@debian.org>  Mon, 09 Jan 2023 13:00:57 +0000
+
+python-h11 (0.13.0-2) unstable; urgency=medium
+
+  * debian/rules
+    - fix pytest -k syntax for pytest7; Closes: #1013722
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 26 Jun 2022 12:55:45 -0400
+
+python-h11 (0.13.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Clean up h11.egg-info/requires.txt to allow two builds in a row.
+  * Depend on python3-all for autopkgtests.
+  * Update year in d/copyright.
+
+ -- Michael Fladischer <fladi@debian.org>  Mon, 31 Jan 2022 12:56:24 +0000
+
+python-h11 (0.12.0-2) unstable; urgency=low
+
+  * Update d/watch to work with github again.
+  * Bump Standards-Version to 4.6.0.1.
+  * Enable upstream testsuite for autopkgtests.
+  * Remove unnecessary autopkgtest-pkg-python testsuite.
+
+ -- Michael Fladischer <fladi@debian.org>  Sun, 07 Nov 2021 09:04:24 +0000
+
+python-h11 (0.12.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 01 Jan 2021 18:52:37 +0100
+
+python-h11 (0.11.0-1) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Michael Fladischer ]
+  * New upstream release.
+  * Bump debhelper version to 13.
+
+ -- Michael Fladischer <fladi@debian.org>  Sun, 25 Oct 2020 17:13:21 +0100
+
+python-h11 (0.9.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Set DPMT as maintainer and myself as uploader, adopting this package
+    (Closes: #947014).
+  * Use github.com in d/watch.
+  * Run wrap-and-sort -bast to reduce diff size of future changes.
+  * Bump debhelper compatibility and version to 12 and switch to
+    debhelper-compat.
+  * Bump Standards-Version to 4.5.0.
+  * Set Vcs-* to DPMT repo on salsa.debian.org.
+  * Enable autopkgtest-pkg-python testsuite.
+  * Set Rules-Requires-Root: no.
+  * Rename upstream branch in d/gbp.conf.
+  * Clean up files to allow two builds in a row.
+  * Remove trailing newline in d/rules.
+  * Add linitan overrides for JS source file with long inlined HTML
+    string.
+  * Rename license to BSD-3-lause, include full license text and update
+    copyright names.
+  * Add myself to d/copyright.
+  * Rename MIT license to Expat.
+
+ -- Michael Fladischer <fladi@debian.org>  Thu, 06 Feb 2020 20:58:55 +0100
+
+python-h11 (0.8.1-2) unstable; urgency=medium
+
+  * Set maintainer to Debian QA Group
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 19 Dec 2019 14:36:15 +0100
+
+python-h11 (0.8.1-1) unstable; urgency=medium
+
+  * New upstream version 0.8.1
+  * Update upstream URL
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 25 Apr 2018 07:04:50 +0200
+
+python-h11 (0.8.0-2) unstable; urgency=medium
+
+  * Switch to DEP 14
+  * Document copyright for docs/source/_static/show-code.js (Closes: #894568)
+
+ -- Sebastien Delafond <seb@debian.org>  Tue, 03 Apr 2018 12:55:38 +0200
+
+python-h11 (0.8.0-1) unstable; urgency=medium
+
+  * First upload (Closes: #894547)
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 01 Apr 2018 11:34:58 +0200
