@@ -1,0 +1,9 @@
+.pytest_cache/CACHEDIR.TAG
+.pytest_cache/README.md
+.pytest_cache/v/cache/nodeids
+.pytest_cache/v/cache/stepwise
+h11.egg-info/PKG-INFO
+h11.egg-info/SOURCES.txt
+h11.egg-info/dependency_links.txt
+h11.egg-info/top_level.txt
+h11.egg-info/requires.txt
