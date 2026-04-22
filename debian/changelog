@@ -1,3 +1,10 @@
+python-h11 (0.14.0-1deepin1) unstable; urgency=medium
+
+  * CVE-2025-43859: Don't accept malformed chunked-encoding bodies
+    (HTTP request smuggling vulnerability)
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 17 Apr 2026 00:59:00 +0800
+
 python-h11 (0.14.0-1) unstable; urgency=low
 
   * New upstream release.
